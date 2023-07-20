@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .content {
+    width: 90%;
+    margin: auto;
+    margin-top: 350px;
+    height: 7vh;
+    background-color: lightgrey;
+  }
+  
+.breadcrumb{
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style-type: none;
+    padding: 17px;
+    margin-left: 50px;
+}
+.breadcrumb li{
+    display: inline;
+    padding: 0px 5px ;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: blue;
+}
+.breadcrumb li a:hover{
+    text-decoration: underline;
+    color: rgb(64, 1, 122);
+}
